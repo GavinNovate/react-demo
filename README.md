@@ -84,6 +84,5 @@ yarn global add tslint typescript
 ```
 
 
-
-learn more: https://palantir.github.io/tslint/
+learn more: https://palantir.github.io/tslint/  https://www.jianshu.com/p/2b409dfc8f75
 

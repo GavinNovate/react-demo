@@ -42,3 +42,48 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+## TS Lint
+
+### Quick Start
+
+```shell
+# Install the global CLI and its peer dependency
+yarn global add tslint typescript
+
+# Navigate to your sources folder
+cd path/to/project
+
+# Generate a basic configuration file
+tslint --init
+
+# Lint TypeScript source globs
+tslint -c tslint.json 'src/**/*.ts'
+```
+
+
+
+### Installation
+
+**Local** (in your project’s working directory):
+
+```shell
+npm install tslint typescript --save-dev
+# or
+yarn add tslint typescript --dev
+```
+
+**Global**:
+
+```shell
+npm install tslint typescript -g
+# or
+yarn global add tslint typescript
+```
+
+
+
+learn more: https://palantir.github.io/tslint/
+
